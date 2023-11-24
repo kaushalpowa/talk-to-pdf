@@ -1,8 +1,9 @@
 # talk-to-pdf
 1) Clone the repository
+   `git clone https://github.com/kaushalpowa/talk-to-pdf.git`
 
-2) Install the requirements
+3) Install the requirements
 `pip install -r requirements.txt`
 
-3) Run streamlit app
+4) Run streamlit app
    `streamlit run 0_🔌API_KEY.py`
