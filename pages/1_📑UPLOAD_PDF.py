@@ -20,7 +20,7 @@ elif pdf_option == "Provide Online PDF Link":
 model_name = st.selectbox("Select the model you want to use", ("gpt-3.5-turbo", "gpt-4"))
 temperature = st.slider("Set temperature", 0.1, 1.0, 0.5, 0.1)
 
-if pdf_file is not None or pdf_link:
+if pdf_file is not None:
     if pdf_file:
         query_engine(pdf_file, model_name, temperature)
     else:
