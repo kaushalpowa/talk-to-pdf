@@ -27,7 +27,7 @@ if submit:
     st.sidebar.success("✅ API key entered successfully")
     time.sleep(1.5)
     switch_page('upload pdf')
-sidebar_stuff1()
+#sidebar_stuff1()
 
 
 
