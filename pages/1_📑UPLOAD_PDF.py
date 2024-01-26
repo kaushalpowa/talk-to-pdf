@@ -14,7 +14,8 @@ pdf_file = st.file_uploader(
             "Unleash the power of AI to have a conversation with your PDFs and uncover new insights, all with a single upload⬇️ ",type=['pdf'], accept_multiple_files=True)
 
 if pdf_file :
-    reader = load_document(uploaded_files=pdf_file)
-    query_engine = query_engine(reader, model_name, temperature)
+    with st.spinner("Uploading PDF..."):
+        reader = load_document(uploaded_files=pdf_file)
+        query_engine = query_engine(reader, model_name, temperature)
 else:
         st.error("Please upload a PDF file")
