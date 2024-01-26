@@ -30,7 +30,7 @@ from the conversation.
 custom_chat_history = [
     ChatMessage(
         role=MessageRole.USER, 
-        content='Hello assistant, given is a document. Please answer the question by understanding the context and information of the document. Use your own knowledge and understanding to answer the question.'
+        content='Hello assistant, given is a document. Please answer the question by understanding the context and information of the document. Use your own knowledge and understanding to answer the question. All the question are related to document'
     ), 
     ChatMessage(
         role=MessageRole.ASSISTANT, 
