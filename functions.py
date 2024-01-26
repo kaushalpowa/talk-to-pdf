@@ -64,8 +64,7 @@ def sidebar_stuff2():
                         """
 
 
-    button = """
-    <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="kaushal.ai" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Support my work" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>"""
+    
     with st.sidebar:
        
         st.markdown(html_temp.format("rgba(55, 53, 47, 0.16)"), unsafe_allow_html=True)
@@ -84,10 +83,7 @@ def sidebar_stuff2():
         st.markdown(html_temp.format("rgba(55, 53, 47, 0.16)"), unsafe_allow_html=True)
 
 
-        st.markdown("""
-        Made by [@Obelisk_1531](https://twitter.com/Obelisk_1531)
-        """)
-        html(button, height=70, width=220)
+        
         st.markdown(
             """
             <style>
@@ -110,8 +106,7 @@ def sidebar_stuff3():
                         """
 
 
-    button = """
-    <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="kaushal.ai" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Support my work" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>"""
+    
     with st.sidebar:
        
         st.markdown(html_temp.format("rgba(55, 53, 47, 0.16)"), unsafe_allow_html=True)
@@ -125,10 +120,7 @@ def sidebar_stuff3():
         st.markdown(html_temp.format("rgba(55, 53, 47, 0.16)"), unsafe_allow_html=True)
 
 
-        st.markdown("""
-        Made by [@Obelisk_1531](https://twitter.com/Obelisk_1531)
-        """)
-        html(button, height=70, width=220)
+       
         st.markdown(
             """
             <style>
